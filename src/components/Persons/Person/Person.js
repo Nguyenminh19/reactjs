@@ -1,16 +1,8 @@
 import React from 'react'
 import './Person.css'
 
-const person = (props) => {
-
-    // const style = {
-    //     '@media (min-width:500px)': {
-    //         color: 'yellow'
-    //     }
-    // }
-
-
-    return (
+const person = (props) => {   
+    return (   
         <div className="personDiv">
             <p onClick={props.click}>My name {props.name}</p>
             <p>{props.children}</p>
